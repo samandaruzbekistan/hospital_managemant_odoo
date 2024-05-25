@@ -1,6 +1,7 @@
 {
     'name' : 'Hospital Management',
     'version' :'1.0.0',
+    'sequence' : -100,
     'author' : 'Samandar Sariboyev',
     'website' : 'goldapps.uz',
     'category' : 'Health',
