@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <menuitem id="menu_hospital_root"
+              name="Darmon Clinic"
+              sequence="0"/>
+
+    <menuitem id="menu_patient_master"
+              name="Bemorlar ma'lumotlari"
+              parent="menu_hospital_root"
+              sequence="0"/>
+
+    <menuitem id="menu_patient"
+              name="Bemorlar"
+              action="action_hospital_patients"
+              parent="menu_patient_master"
+              sequence="0"/>
+
+
+</odoo>

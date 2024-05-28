@@ -1,5 +1,5 @@
 {
-    'name': 'Hospital Management',
+    'name': 'Darmon Clinic',
     'version': '1.0.0',
     'sequence': -100,
     'author': 'Samandar Sariboyev',
@@ -11,7 +11,8 @@
     'application': True,
     'depends': [],
     'data': [
-
+        'views/patient_view.xml',
+        'views/menu.xml',
     ],
     'installable': True,
 }
